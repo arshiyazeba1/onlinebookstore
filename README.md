@@ -44,7 +44,7 @@
 - MySQL
 - Eclipse [Enterprise Edition]
 - Java [JDK 8+]
-- Tomcat v8.0+
+- Tomcat v9.0+
 - Apache Maven
 
 Note:- This is a Sample Project, So we have used only Generic Servlet and not taken care for Security.
