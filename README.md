@@ -102,6 +102,6 @@ Step 8: Default Username And Password For User Is "arshiya" And "arshiya"
 
 #### "Suggestions and project Improvements are Invited!"
 
-<bold>Thanks a lot</bold><br/>
+<bold>Thanks</bold><br/>
                                                                                                         Project Leader<br/>
                                                                                                          <b>Arshiya Zeba</b>
