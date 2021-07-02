@@ -28,6 +28,7 @@ public class UserLoginServlet extends GenericServlet {
 				pw.println("<div class=\"tab hd brown\">User Login Successful !</div><br/>");
 				pw.println("<div class=\"tab\"><a href=\"viewbook\">VIEW BOOKS</a></div>");
 				pw.println("<div class='tab'><a href=\"buybook\">BUY BOOKS</a></div>");
+				pw.println("<div class=\"tab\"><a href=\"SearchBooks.html\">SEARCH BOOKS</a></div>");
 			} else {
 
 				RequestDispatcher rd = req.getRequestDispatcher("UserLogin.html");

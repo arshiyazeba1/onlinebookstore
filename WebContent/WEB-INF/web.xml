@@ -56,6 +56,14 @@
     <servlet-name>BuyBooksServlet</servlet-name>
     <url-pattern>/buybook</url-pattern>
   </servlet-mapping>
+    <servlet>
+    <servlet-name>SearchBooksServlet</servlet-name>
+    <servlet-class>servlets.SearchBooksServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchBooksServlet</servlet-name>
+    <url-pattern>/searchBook</url-pattern>
+  </servlet-mapping>
   <servlet>
     <servlet-name>ReceiptServlet</servlet-name>
     <servlet-class>servlets.ReceiptServlet</servlet-class>
