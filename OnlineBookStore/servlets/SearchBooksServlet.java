@@ -21,7 +21,7 @@ public class SearchBooksServlet extends GenericServlet{
 			RequestDispatcher rd = req.getRequestDispatcher("ViewBooks.html");
 			rd.include(req, res);
 			pw.println("<div class=\"tab hd brown \">Books Available In Our Store</div>");
-			pw.println("<div class=\"tab\"><form action=\"buys\" method=\"post\">");
+			pw.println("<div class=\"tab\"><form action=\"buysearchbook\" method=\"post\">");
 			pw.println("<table>\r\n" + 
 					"			<tr>\r\n" + 
 					"				<th>Books</th>\r\n" + 
@@ -45,7 +45,7 @@ public class SearchBooksServlet extends GenericServlet{
 				String q = "qty"+Integer.toString(i);
 				pw.println("<tr>\r\n" + 
 						"				<td>\r\n" + 
-						"					<input type=\"checkbox\" name="+n+" value=\"pay\">\r\n" + //Value is made equal to bcode
+						"					<input type=\"checkbox\" name="+n+" value="+ bCode + ">\r\n" + //Value is made equal to bcode
 						"				</td>");
 				pw.println("<td>"+bCode+"</td>");
 				pw.println("<td>"+bName+"</td>");
